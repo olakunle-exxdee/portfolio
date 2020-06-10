@@ -1,0 +1,78 @@
+:root {
+  --graa: linear-gradient(45.34deg, #ea52f8 5.66%, #0066ff 94.35%);
+  --graa1: linear-gradient(45.34deg, #0066ff 5.66%, #007bff94 100%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+.nav-bg {
+  background: #f0f4fa;
+}
+.active a {
+  background-image: var(--graa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  transition: background 5s ease-in;
+}
+.rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.links {
+  color: whitesmoke;
+}
+.colorp {
+  color: #f0f4fa;
+}
+.links:hover {
+  background-image: var(--graa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.navbar-nav .nav-item .nav-link {
+  padding: 0 3rem;
+}
+.banner {
+  min-height: 100vh;
+  background-image: url(/grayscale-photo-of-volcano-997443.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fontz {
+  font-size: 6rem;
+  color: whitesmoke;
+}
+.image {
+  box-shadow: -2px 4px 10px 4px rgba(189, 182, 182, 0.43);
+  -webkit-box-shadow: -2px 4px 10px 4px rgba(189, 182, 182, 0.43);
+  -moz-box-shadow: -2px 4px 10px 4px rgba(189, 182, 182, 0.43);
+  border: 1px #0066ff solid;
+  transition: box-shadow 4s ease-in-out;
+}
+.image:hover {
+  box-shadow: -2px 4px 10px 4px rgba(189, 182, 182, 1);
+  -webkit-box-shadow: -2px 4px 10px 4px rgba(189, 182, 182, 1);
+  -moz-box-shadow: -2px 4px 10px 4px rgba(189, 182, 182, 1);
+}
+.logo {
+  width: 50px;
+  background: transparent;
+}
+.font-size {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
