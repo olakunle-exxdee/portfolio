@@ -1,3 +1,3 @@
 # portfolio
 
-deme portfolio
+demo portfolio
